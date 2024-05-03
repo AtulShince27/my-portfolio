@@ -1,0 +1,669 @@
+@import url('https://fonts.cdnfonts.com/css/helvetica-neue-5');
+
+/* Styles for Mobile Screens */
+@media screen and (min-width: 350px) and (max-width: 768px){
+  .portfolio-app{
+    padding: 2vh;
+  }
+  .home-page{
+    height: 100vh;
+    #homeContent{
+      #codingGIF{
+        background-image: url(./images/coder-gif.gif);
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 90%;
+        height: 30vh;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 5rem;
+      }
+    }
+  }
+  .skills-page{
+    height: auto;
+    .mobileScreens{
+      visibility: visible;
+      font-size: 6.75vh;
+      text-align: center;
+    }
+    .laptopScreens{
+      visibility: hidden;
+      z-index: -1;
+      position: absolute;
+    }
+    #skillsContainer > div{
+      width: 90%;
+      height: 25vh;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 2vh;
+      display: flex;
+      overflow: scroll;
+    }
+    p{
+      font-size: 24px;
+      width: 90%;
+      text-align: justify;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+  .about-page{
+    .page-grid{
+      .imageContainer{
+        background-image: url(../src/images/Microsites-amico.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        height: 50vh;
+      }
+      h3{
+        font-size: 5vh;
+      }
+    }
+    .projects-grid{
+      height: auto;
+      .project-list > div{
+        margin-bottom: 3vh;
+        text-align: left;
+      }
+    }
+  }
+  .contact-page{
+    .contact-col{
+      display: grid;
+      grid-template-rows: auto auto auto auto;
+      .rowEl{
+        width: 100%;
+        display: grid;
+        color: white;
+        grid-template-columns: auto auto;
+        place-items: center;
+        margin-bottom: 2vh;
+      }
+    }
+    .image-col{
+      height: 50vh;
+    }
+  }
+}
+
+/* Meida Query for Landscape Mobile */
+@media screen and (min-width: 650px) and (max-width: 1024px) and (min-height: 250px) and (max-height: 768px){
+  .portfolio-app{
+    padding: 12.5vh;
+  }
+  .home-page{
+    height: fit-content;
+    margin-bottom: 2rem;
+    #homeContent{
+      #codingGIF{
+        background-image: url(./images/coder-gif.gif);
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 60vh;
+        background-position: center;
+        margin: auto;
+        margin-top: 5rem;
+      }
+    }
+  }
+  .skills-page{
+    height: auto;
+    .mobileScreens{
+      visibility: visible;
+      font-size: 8.75vh;
+      text-align: center;
+    }
+    .laptopScreens{
+      visibility: hidden;
+      z-index: -1;
+      position: absolute;
+    }
+    #skillsContainer{
+      display: grid;
+      grid-template-columns: auto auto;
+    }
+    #skillsContainer > div{
+      width: 90%;
+      height: 25vh;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 4vh;
+      display: flex;
+      overflow: scroll;
+    }
+    p{
+      font-size: 24px;
+      width: 90%;
+      text-align: justify;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+  .about-page{
+    .page-grid{
+      text-align: center;
+      .imageContainer{
+        background-image: url(../src/images/Microsites-amico.png);
+        background-size: contain;
+        width: 100%;
+        height: 100vh;
+        background-repeat: no-repeat;
+        background-position: center;
+      }
+      h3{
+        font-size: 7.75vh;
+      }
+    }
+    .projects-grid{
+      height: auto;
+      .project-list > div{
+        margin-bottom: 5vh;
+        text-align: left;
+      }
+    }
+  }
+  .contact-page{
+    .contact-col{
+      display: grid;
+      grid-template-rows: auto auto auto auto;
+      .rowEl{
+        width: 100%;
+        display: grid;
+        color: white;
+        grid-template-columns: auto auto;
+        place-items: center;
+        margin-bottom: 2vh;
+      }
+    }
+    .image-col{
+      height: 100vh;
+    }
+  }
+}
+// Media Query for Tablets
+@media screen and (min-width: 768px) and (max-width: 1024px) and (min-height: 768px){
+  .portfolio-app{
+    padding: 12.5vh;
+    overflow: hidden;
+  }
+  .home-page{
+    height: fit-content;
+    margin-bottom: 2rem;
+    #homeContent{
+      #codingGIF{
+        background-image: url(./images/coder-gif.gif);
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 45vh;
+        background-position: center;
+        margin: auto;
+        margin-top: 5rem;
+      }
+    }
+  }
+  .skills-page{
+    height: auto;
+    .mobileScreens{
+      visibility: visible;
+      font-size: 8.75vh;
+      text-align: center;
+    }
+    #skillsCenter{
+      width: 0px;
+      height: 0px;
+      visibility: hidden;
+      position: absolute;
+      z-index: -1;
+    }
+    #skillsContainer{
+      display: grid;
+      grid-template-columns: auto auto;
+    }
+    #skillsContainer > div{
+      width: 90%;
+      height: 20vh;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 4vh;
+      display: flex;
+      overflow: scroll;
+    }
+    p{
+      font-size: 24px;
+      width: 90%;
+      text-align: justify;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+  .about-page{
+    .page-grid{
+      text-align: center;
+      .imageContainer{
+        background-image: url(../src/images/Microsites-amico.png);
+        background-size: contain;
+        width: 100%;
+        height: 100vh;
+        background-repeat: no-repeat;
+        background-position: center;
+      }
+      h3{
+        font-size: 5vh;
+      }
+    }
+    .projects-grid{
+      margin-top: 3vh;
+      height: auto;
+      .project-list > div{
+        margin-bottom: 5vh;
+        text-align: left;
+      }
+    }
+  }
+  .contact-page{
+    .contact-col{
+      display: grid;
+      grid-template-rows: auto auto auto auto;
+      .rowEl{
+        width: 100%;
+        display: grid;
+        color: white;
+        grid-template-columns: auto auto;
+        place-items: center;
+        margin-bottom: 2vh;
+      }
+    }
+    .image-col{
+      height: 50vh;
+    }
+  }
+}
+// Media Query for Laptops
+@media screen and (min-width:1024px){
+  .portfolio-app{
+    font-family: 'Helvetica Neue', sans-serif;
+    overflow-x: hidden;
+    z-index: 1;
+    border: 1px solid white;
+  }
+  .home-page{
+    width: 100%;
+    height: 100vh;
+    .text-gradient{
+      background-image: linear-gradient(90deg, #6C0C7C, #8E24A0, #E49112, #FBA521);
+      background-clip: text;
+      text-fill-color: transparent;
+    }
+    #homeContent{
+      #codingGIF{
+        background-image: url(./images/coder-gif.gif);
+        width: 50%;
+        height: 25rem;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 5rem;
+      }
+    }
+  }
+  .skills-page{
+    width: 100%;
+    height: 165vh;
+    // border: 2px solid white;
+    .mobileScreens{
+      visibility: hidden;
+    }
+    #dockerImg{
+      grid-area: docker;
+      background-image: url(./images/docker_icon2.png);
+    }
+    #githubImg{
+      grid-area: github;
+      background-image: url(./images/GitHub_icon.png);
+    }
+    #expressImg{
+      grid-area: express;
+      background-image: url(./images/express_icon_1.png);
+    }
+    #cppImg{
+      grid-area: cpp;
+      background-image: url(./images/C++_icon_1.png);
+    }
+    #jsImg{
+      grid-area: js;
+      background-image: url(./images/javascript_icon.png);
+    }
+    #skillsCenter{
+      grid-area: skills;
+      display: flex;
+      justify-content: center; /* Horizontally center */
+      align-items: center; /* Vertically center */
+      .laptopScreens{
+        font-size: 80px;
+        font-weight: 600;
+      }
+    }
+    #reactJSImg{
+      grid-area: reactjs;
+      background-image: url(./images/react_icon_1.png);
+    }
+    #pythonImg{
+      grid-area: python;
+      background-image: url(./images/python_icon.webp);
+    }
+    #firebaseImg{
+      grid-area: firebase;
+      background-image: url(./images/firebase_icon_1.png);
+    }
+    #postgresImg{
+      background-image: url(./images/postgres_icon.png);
+      grid-area: postgres;
+    }
+    #mongoDBImg{
+      grid-area: mongodb;
+      background-image: url(./images/MongoDB_Logo_1.png);
+    }
+    #skillsContainer{
+      width: 66.6666%;
+      display: grid;
+      grid-template-areas: 
+      "docker github express cpp"
+      "js skills skills reactjs"
+      "python skills skills firebase"
+      "postgres postgres mongodb mongodb";
+      height: 100vh;
+      gap: 1rem;
+    }
+    .textContainer{
+      width: 66%;
+      margin: auto;
+    }
+  }
+  
+  .about-page{
+    width: 100%;
+    height: max-content;
+    padding-bottom: 4rem;
+    // border: 2px solid #ffffff;
+    .page-grid{
+      height: 125vh;
+      border: 1px solid yellow;
+      display: grid;
+      grid-template-columns: 50% 50%;
+      .imageContainer{
+        background-image: url(../src/images/Microsites-amico.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+      }
+      h3{
+        font-size: 5vh;
+      }
+      .textContainer{
+        .about-grid{
+          display: grid;
+          grid-template-rows: 50% 50%;
+          .grid-row-el{
+            height: 15rem;
+            display: grid;
+            grid-template-columns: 50% 50%;
+            .grid-col-el{
+              padding: 1rem;
+              display: grid;
+              grid-template-rows: 50% 50%;
+              p{
+                font-size: 3vh;
+              }
+            }
+          }
+        }
+      }
+    }
+    .projects-grid{
+      border: 1px solid yellowgreen;
+      top: 0;
+      display: grid;
+      grid-template-columns: 50% 50%;
+      #coderImg{
+        position: absolute;
+        width: 40%;
+        margin-top: 20rem;
+        margin-left: 2.5rem;
+      }
+      .project-list{
+        display: grid;
+        grid-template-rows: 25% 22% 24% 24%;
+        padding: 0rem 3rem;
+        h3{
+          font-size: 5vh;
+          margin-bottom: 0.5rem;
+        }
+        a{
+          color: #523AF2;
+        }
+      }
+    }
+  }
+  .contact-page{
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 50% 50%;
+  
+    // #resumePage{
+    //   display: grid;
+    //   grid-template-columns: 50% 50%;
+    //   margin-top: 10rem;
+    //   .image-col{
+    //     background-image: url(./images/programmer1.png);
+    //     background-size: contain;
+    //     background-repeat: no-repeat;
+    //     background-position: -2rem;
+    //   }
+    //   .resume-col{
+    //     h1{
+    //       font-size: 80px;
+    //       color: white;
+    //       margin-top: 5rem;
+    //       margin-bottom: 8.75rem;
+    //       width: 60%;
+    //     }
+    //     button{
+    //       background-color: white;
+    //       font-size: 24px;
+    //       padding: 8px 16px;
+    //       border-radius: 4px;
+    //       #downloadBtn{
+    //         background-image: linear-gradient(90deg, #6C0C7C, #8E24A0, #E49112, #FBA521);
+    //         background-clip: text;
+    //         text-fill-color: transparent;
+    //       }
+    //     }
+    //   }
+    // }
+    #contactMePage{
+      margin-top: 5rem;
+      display: grid;
+      grid-template-columns: 50% 50%;
+      .image-col{
+        #interviewImg{
+          margin-top: 2.75vh;
+        }
+      }
+      .contact-col{
+        display: grid;
+        grid-template-rows: auto auto auto auto;
+        .rowEl{
+          display: grid;
+          place-items: center;
+          grid-template-columns: 30% 70%;
+          .colEl:last-child{
+            text-align: left;
+            color: white;
+            font-size: 24px;
+          }
+        }
+      }
+    }
+  }
+}
+
+#dockerImg{
+  background-image: url(./images/docker_icon2.png);
+}
+#githubImg{
+  background-image: url(./images/GitHub_icon.png);
+}
+#expressImg{
+  background-image: url(./images/express_icon_1.png);
+}
+#cppImg{
+  background-image: url(./images/C++_icon_1.png);
+}
+#jsImg{
+  background-image: url(./images/javascript_icon.png);
+}
+#reactJSImg{
+  background-image: url(./images/react_icon_1.png);
+}
+#pythonImg{
+  background-image: url(./images/python_icon.webp);
+}
+#firebaseImg{
+  background-image: url(./images/firebase_icon_1.png);
+}
+#postgresImg{
+  background-image: url(./images/postgres_icon.png);
+}
+#mongoDBImg{
+  background-image: url(./images/MongoDB_Logo_1.png);
+}
+
+#skillsContainer > div{
+  border-radius: 16px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.text-gradient{
+  background-image: linear-gradient(90deg, #6C0C7C, #8E24A0, #E49112, #FBA521);
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+#jwt{
+  background-image: linear-gradient(90deg, #FB2D77,#A908D4,#00B9F1, #00F2E6);
+  background-clip: text;
+  text-fill-color: transparent;
+}
+#bootstrap{
+  background-image: linear-gradient(90deg, #5600B7, #6C00E5, #7E11F8, #9335FD, #AB60FF);
+  background-clip: text;
+  text-fill-color: transparent;
+}
+#tailwind{
+  background-image: linear-gradient(90deg, #006967, #176967, #258886, #389997, #58C5C3);
+  background-clip: text;
+  text-fill-color: transparent;
+}
+#materialUI{
+  background-image: linear-gradient(90deg, #004B76, #00659F, #0081CB, #00B0FF, #90DDFF);
+  background-clip: text;
+  text-fill-color: transparent;
+}
+#recoil{
+  background-image: linear-gradient(90deg, #004B76, #00659F, #0081CB, #00B0FF, #90DDFF);
+  background-clip: text;
+  text-fill-color: transparent;
+}
+#redux{
+  background-image: linear-gradient(90deg, #411584, #5A2D9E, #7649BB, #8E64CF, #A986DE);
+  background-clip: text;
+  text-fill-color: transparent;
+}
+#postman{
+  background-image: linear-gradient(90deg, #ab3a11, #B03A0D, #CE410C, #FD6C35, #FF8F65);
+  background-clip: text;
+  text-fill-color: transparent;
+}
+#framer{
+  background-image: linear-gradient(90deg, #DE36AD, #C01F91, #960B6D, #682CF5, #3F07C0, #2C72F6, #0B53DA);
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+h3{
+  color: white;
+  font-weight: 400;
+}
+h3:first-child{
+  margin-top: 2rem;
+}
+#aboutMeGradient{
+  background-image: linear-gradient(90deg, #6C0C7C, #8E24A0, #9E47AD, #B15EC0, #C377D0, #D79CE1, #E5B5ED);
+  background-clip: text;
+  text-fill-color: transparent;
+}
+.about-page{
+  p{
+    color: white;
+  }
+}
+
+#projectTextGradient{
+  background-image: linear-gradient(90deg, #523AF2, #EAEBFD);
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+h4{
+  background-image: linear-gradient(90deg, #523AF2, #EAEBFD);
+  background-clip: text;
+  text-fill-color: transparent;
+}
+
+#contactMePage{
+  h3{
+    background-image: linear-gradient(90deg, #6C0C7C, #8E24A0, #E49112, #FBA521);
+    background-clip: text;
+    text-fill-color: transparent;
+    font-size: 80px;
+    text-align: center;
+  }
+  .contact-col{
+    .rowEl{
+      margin-top: 2rem;
+      #phoneImg{
+        background-image: url(./images/phone-img.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 10vh;
+        width: 100%;
+        background-size: contain;
+      }
+      #emailImg{
+        background-image: url(./images/mail-img.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 10vh;
+        width: 100%;
+        background-size: contain;
+      }
+      #linkedInImg{
+        background-image: url(./images/linkedin-img.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 10vh;
+        width: 100%;
+        background-size: contain;
+      }
+    }
+  }
+  .image-col{
+    background-image: url(./images/Interview-amico.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: contain;
+  }
+}

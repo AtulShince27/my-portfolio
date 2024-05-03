@@ -1,0 +1,14 @@
+.nav-bar{
+    background-color: white;
+    border: 1px solid black ;
+    z-index: 2;
+    width: 100%;
+    overflow: hidden;
+}
+.nav-link:visited{
+    color:#FBA521;
+}
+#contactMeButton{
+    font-size: 16px;
+    color: black;
+}
