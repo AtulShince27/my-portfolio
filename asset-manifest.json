@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/my-portfolio/static/css/main.89307e69.css",
+    "main.js": "/my-portfolio/static/js/main.407851eb.js",
+    "static/js/787.128fc6e9.chunk.js": "/my-portfolio/static/js/787.128fc6e9.chunk.js",
+    "static/media/coder-gif.gif": "/my-portfolio/static/media/coder-gif.37ef1e1a376ff1b6c967.gif",
+    "static/media/Microsites-amico.png": "/my-portfolio/static/media/Microsites-amico.0a8a82c055bd066c1f68.png",
+    "static/media/working-img3.png": "/my-portfolio/static/media/working-img3.0b70192d7a7003f835cc.png",
+    "static/media/Interview-amico.png": "/my-portfolio/static/media/Interview-amico.92c8221baa5f1f9aa558.png",
+    "static/media/docker_icon2.png": "/my-portfolio/static/media/docker_icon2.92767d886ec1a65dac1c.png",
+    "static/media/postgres_icon.png": "/my-portfolio/static/media/postgres_icon.8793cfacd05cc5d48550.png",
+    "static/media/GitHub_icon.png": "/my-portfolio/static/media/GitHub_icon.7c8f7736007664c4b0ba.png",
+    "static/media/MongoDB_Logo_1.png": "/my-portfolio/static/media/MongoDB_Logo_1.26238292c3aa38cb348b.png",
+    "static/media/react_icon_1.png": "/my-portfolio/static/media/react_icon_1.3aa2555adddf671f1f16.png",
+    "static/media/python_icon.webp": "/my-portfolio/static/media/python_icon.abff84fb82f2e6d2e6f2.webp",
+    "index.html": "/my-portfolio/index.html",
+    "main.89307e69.css.map": "/my-portfolio/static/css/main.89307e69.css.map",
+    "main.407851eb.js.map": "/my-portfolio/static/js/main.407851eb.js.map",
+    "787.128fc6e9.chunk.js.map": "/my-portfolio/static/js/787.128fc6e9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.89307e69.css",
+    "static/js/main.407851eb.js"
+  ]
+}
