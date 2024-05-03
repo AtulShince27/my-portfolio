@@ -51,7 +51,7 @@ function App() {
           </p>
         </div>
       </div>
-      <div className="about-page">
+      <div className="about-page" id='aboutMePage'>
         <div className='page-grid'>
           <div className='imageContainer'>
           </div>

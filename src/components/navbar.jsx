@@ -15,10 +15,10 @@ function NavBar() {
           <Nav className="me-auto">
                <Nav.Link href="#homePage">Home</Nav.Link>
                <Nav.Link href="#skillsPage">Skills</Nav.Link>
-               <Nav.Link href="#about">About</Nav.Link>
+               <Nav.Link href="#aboutMePage">About</Nav.Link>
           </Nav>
           <Nav>
-            <Nav.Link href="#contact">
+            <Nav.Link href="#contactMePage">
               <button id='contactMeButton'>Contact Me!</button>
             </Nav.Link>
           </Nav>
