@@ -14,7 +14,7 @@ function App() {
                 Hello I'm Atul.
               </h1>
               <h1 className='text-5xl text-center' id='gradientText'>
-                <span className='text-gradient text-transparent'>An aspiring professional developer.</span>
+                <span className='text-gradient'>An aspiring professional developer.</span>
               </h1>
               <div id="codingGIF"></div>
 
